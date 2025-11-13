@@ -93,7 +93,7 @@ O site está publicado e pode ser acessado em:
 ## 👨‍💻 Autor
 
 **Enzo Barbosa Bradaschia**  
-Desenvolvedor Front-End | Estudante de Desenvolvimento Web (Senac)  
-📧 [LinkedIn ou GitHub opcional se quiser adicionar aqui]
+Desenvolvedor Jr. | Estudante de Desenvolvimento Web (Senac)  
+📧 [(https://www.linkedin.com/in/enzo-bradaschia-66648425b/)]
 
 ---
