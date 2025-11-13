@@ -43,17 +43,16 @@ O objetivo principal foi criar um site funcional aplicando os conceitos de **HTM
 
 ## 📂 Estrutura de Arquivos
 
-.
-├── index.html # Página principal (Portfólio: Home, Sobre, Projetos)
-├── curriculo.html # Página do Currículo Interativo
-│
-├── linguagens.html # Projeto de Linguagens
-├── cn.html # Projeto de Ciências da Natureza
-├── ch.html # Projeto de Ciências Humanas
-├── matematica.html # Projeto de Matemática
-├── ti.html # Projeto de T.I. (FTP)
-│
-└── README.md # Este arquivo
+| Arquivo / Pasta | Descrição |
+|------------------|------------|
+| `index.html` | Página principal do portfólio (Home, Sobre, Projetos) |
+| `curriculo.html` | Página do currículo interativo |
+| `linguagens.html` | Projeto da área de Linguagens |
+| `cn.html` | Projeto da área de Ciências da Natureza |
+| `ch.html` | Projeto da área de Ciências Humanas |
+| `matematica.html` | Projeto da área de Matemática |
+| `ti.html` | Projeto da área de Tecnologia da Informação (FTP) |
+| `README.md` | Este arquivo de documentação |
 
 ---
 
