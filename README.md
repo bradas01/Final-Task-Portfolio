@@ -55,9 +55,6 @@ O objetivo principal foi criar um site funcional aplicando os conceitos de **HTM
 │
 └── README.md # Este arquivo
 
-yaml
-Copiar código
-
 ---
 
 ## 🛠️ Tecnologias Utilizadas
