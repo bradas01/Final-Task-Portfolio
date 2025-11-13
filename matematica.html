@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto: Matemática</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #f8fafc;
+        }
+        .article-content h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #b45309; /* text-yellow-800 */
+        }
+        .article-content p {
+            margin-bottom: 1rem;
+            line-height: 1.75;
+        }
+        .article-content ul {
+            list-style-type: disc;
+            padding-left: 2rem;
+            margin-bottom: 1rem;
+        }
+        .article-content blockquote {
+            border-left: 4px solid #fef3c7; /* border-yellow-100 */
+            padding-left: 1rem;
+            font-style: italic;
+            color: #4b5563;
+            margin-bottom: 1rem;
+            background-color: #fffbeb; /* bg-yellow-50 */
+            padding: 1rem;
+            border-radius: 0.25rem;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="max-w-6xl mx-auto flex items-center justify-between p-4">
+            <a href="index.html" class="text-2xl font-bold text-blue-700">
+                Portifólio
+            </a>
+            
+            <ul class="hidden md:flex items-center space-x-6">
+                <li><a href="index.html#home" class="text-gray-700 hover:text-blue-600 font-medium">Home</a></li>
+                <li><a href="index.html#sobre" class="text-gray-700 hover:text-blue-600 font-medium">Sobre</a></li>
+                <li><a href="index.html#projetos" class="text-gray-700 hover:text-blue-600 font-medium">Projetos</a></li>
+                <li>
+                    <a href="curriculo.html" class="bg-blue-600 text-white px-4 py-2 rounded-md font-semibold hover:bg-blue-700 transition duration-300">
+                        Meu Currículo
+                    </a>
+                </li>
+            </ul>
+            
+            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </nav>
+        
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg border-t">
+            <a href="index.html#home" class="block px-5 py-3 text-gray-700 hover:bg-gray-50 font-medium">Home</a>
+            <a href="index.html#sobre" class="block px-5 py-3 text-gray-700 hover:bg-gray-50 font-medium">Sobre</a>
+            <a href="index.html#projetos" class="block px-5 py-3 text-gray-700 hover:bg-gray-50 font-medium">Projetos</a>
+            <a href="curriculo.html" class="block px-5 py-3 text-blue-600 hover:bg-gray-50 font-semibold">Meu Currículo</a>
+        </div>
+    </header>
+
+    <main class="py-12">
+        <article class="max-w-4xl mx-auto p-8 bg-white rounded-lg shadow-xl">
+            
+            <header class="mb-8">
+                <h1 class="text-4xl font-extrabold text-yellow-700 mb-2">Princípio da Contagem e Probabilidade</h1>
+                <p class="text-lg text-gray-600">Integrada de Matemática | 3º Bimestre</p>
+            </header>
+            
+            <img src="img/img_mat.png"Projeto Matemática" class="w-full rounded-lg shadow-md mb-8">
+            
+            <div class="article-content text-gray-700 text-lg">
+                <p class="font-semibold mb-6">Este projeto focou na aplicação de análise combinatória e teoria da probabilidade para resolver problemas complexos do cotidiano e de jogos.</p>
+
+                <h3>Contexto do Projeto</h3>
+                <p>A atividade consistia em um conjunto de desafios que deveriam ser resolvidos em grupo, aplicando os conceitos de Princípio Fundamental da Contagem (PFC), arranjos, permutações, combinações e probabilidade condicional. O objetivo era demonstrar o raciocínio lógico e a metodologia de cálculo por trás das soluções.</p>
+
+                <h3>Problemas Abordados</h3>
+                <p>Trabalhamos em diversos cenários, desde os clássicos (quantas placas de carro podem ser formadas?) até os mais complexos, como:</p>
+                <ul>
+                    <li>Cálculo de probabilidades em jogos de cartas (Poker).</li>
+                    <li>Análise de chances em sorteios de loteria.</li>
+                    <li>Otimização de senhas e análise de segurança (quantas tentativas para quebrar?).</li>
+                </ul>
+
+                <blockquote>
+                    <strong>Exemplo de Problema:</strong> "De quantas maneiras 8 pessoas podem sentar-se em 8 cadeiras em fila, se duas delas (A e B) se recusam a sentar-se uma ao lado da outra?"<br>
+                    <strong>Solução:</strong> Calculamos o total de permutações (P8 = 8!) e subtraímos os casos em que A e B estão juntas (2 * P7), chegando à resposta.
+                </blockquote>
+
+                <h3>Metodologia</h3>
+                <p>Cada problema foi dissecado para identificar qual método combinatório era o mais adequado. A apresentação final consistiu na entrega de um relatório detalhado com a resolução passo a passo de cada desafio, explicando não apenas "o quê" foi feito, mas "por que" aquele método foi escolhido. O projeto aprimorou a capacidade de modelagem matemática e pensamento analítico.</p>
+
+            </div>
+
+        </article>
+    </main>
+
+    <footer class="text-center p-6 bg-gray-800 text-gray-300 mt-12">
+        <p>&copy; 2025 Enzo Barbosa Bradaschia. Projeto de Portifólio Integrado ao Currículo.</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            
+            const icon = menuButton.querySelector('i');
+            if (mobileMenu.classList.contains('hidden')) {
+                icon.setAttribute('data-lucide', 'menu');
+            } else {
+                icon.setAttribute('data-lucide', 'x');
+            }
+            lucide.createIcons();
+        });
+    </script>
+</body>
+</html>

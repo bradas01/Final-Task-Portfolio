@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Enzo Barbosa Bradaschia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #f8fafc;
+        }
+        .min-h-screen-nav {
+            min-height: calc(100vh - 73px);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="max-w-6xl mx-auto flex items-center justify-between p-4">
+            <a href="index.html" class="text-2xl font-bold text-blue-700">
+                Portifólio
+            </a>
+            
+            <ul class="hidden md:flex items-center space-x-6">
+                <li><a href="index.html#home" class="text-gray-700 hover:text-blue-600 font-medium">Home</a></li>
+                <li><a href="index.html#sobre" class="text-gray-700 hover:text-blue-600 font-medium">Sobre</a></li>
+                <li><a href="index.html#projetos" class="text-gray-700 hover:text-blue-600 font-medium">Projetos</a></li>
+                <li>
+                    <a href="curriculo.html" class="bg-blue-600 text-white px-4 py-2 rounded-md font-semibold hover:bg-blue-700 transition duration-300">
+                        Meu Currículo
+                    </a>
+                </li>
+            </ul>
+            
+            <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-gray-700 hover:bg-gray-100">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </nav>
+        
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg border-t">
+            <a href="index.html#home" class="block px-5 py-3 text-gray-700 hover:bg-gray-50 font-medium">Home</a>
+            <a href="index.html#sobre" class="block px-5 py-3 text-gray-700 hover:bg-gray-50 font-medium">Sobre</a>
+            <a href="index.html#projetos" class="block px-5 py-3 text-gray-700 hover:bg-gray-50 font-medium">Projetos</a>
+            <a href="curriculo.html" class="block px-5 py-3 text-blue-600 hover:bg-gray-50 font-semibold">Meu Currículo</a>
+        </div>
+    </header>
+
+    <main>
+        
+        <section id="home" class="min-h-screen-nav flex items-center justify-center text-center p-8 bg-white">
+            <div class="bg-white p-10 rounded-lg">
+                <h2 class="text-5xl font-extrabold text-gray-800">Enzo Barbosa Bradaschia</h2>
+                <p class="text-2xl mt-4 text-blue-600 font-semibold">Portifólio de Projetos Acadêmicos</p>
+                <p class="text-lg mt-4 text-gray-700 max-w-2xl">
+                    Estudante de Ciência da Computação. Aqui apresento meus principais trabalhos
+                    nas áreas de Linguagens, Ciências da Natureza, Ciências Humanas, Matemática e T.I.
+                </p>
+                <a href="#projetos" class="mt-8 inline-block bg-blue-600 text-white px-8 py-3 rounded-md font-semibold text-lg hover:bg-blue-700 transition duration-300">
+                    Ver Projetos
+                </a>
+            </div>
+        </section>
+
+        <section id="sobre" class="py-24 bg-gray-50">
+            <div class="max-w-4xl mx-auto px-8">
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Sobre Este Portifólio</h2>
+                <p class="text-lg text-gray-700 leading-relaxed text-center">
+                    Este site foi desenvolvido como atividade acadêmica para o Senac, conforme a "Final Task".
+                    O objetivo é aplicar os conceitos de HTML, CSS e JavaScript na criação de um portifólio
+                    integrado a um currículo interativo, demonstrando os trabalhos das 5 áreas do conhecimento.
+                </p>
+            </div>
+        </section>
+
+        <section id="projetos" class="py-24 bg-white">
+            <div class="max-w-6xl mx-auto px-8">
+                <h2 class="text-4xl font-bold text-center mb-16 text-gray-800">Projetos por Área</h2>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+                    
+                    <a href="linguagens.html" class="block bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                        <img src="img/img_linguagens.jpg" alt="Projeto Linguagens" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-blue-700">Linguagens</h3>
+                            <p class="mt-2 text-gray-600">"Linguagens que inspiram" - Um projeto editorial em formato de revista.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="cn.html" class="block bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                        <img src="img/img_cn.jpg" alt="Projeto Ciências da Natureza" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-green-700">Ciências da Natureza</h3>
+                            <p class="mt-2 text-gray-600">"Feira de ciências e sustentabilidade" - Exploração de temas científicos e ambientais.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="ch.html" class="block bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                        <img src="img/img_ch.jpg"Projeto Ciências Humanas" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-red-700">Ciências Humanas</h3>
+                            <p class="mt-2 text-gray-600">"Simulação ONU, DPO Síria" - Análise e Documento de Posição Oficial.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="matematica.html" class="block bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                        <img src="img/img_mat.png" alt="Projeto Matemática" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-yellow-700">Matemática</h3>
+                            <p class="mt-2 text-gray-600">"Princípio da contagem e probabilidade" - Resolução de problemas e exercícios.</p>
+                        </div>
+                    </a>
+                    
+                    <a href="ti.html" class="block bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition duration-300">
+                        <img src="img/img_ti.jpg" alt="Projeto T.I." class="w-full h-56 object-cover" >
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold text-purple-700">T.I. (FTP)</h3>
+                            <p class="mt-2 text-gray-600">"The Loot Box" - Desenvolvimento de software de gestão para loja de games.</p>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="text-center p-6 bg-gray-800 text-gray-300">
+        <p>&copy; 2025 Enzo Barbosa Bradaschia. Projeto de Portifólio Integrado ao Currículo.</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            
+            const icon = menuButton.querySelector('i');
+            if (mobileMenu.classList.contains('hidden')) {
+                icon.setAttribute('data-lucide', 'menu');
+            } else {
+                icon.setAttribute('data-lucide', 'x');
+            }
+            lucide.createIcons();
+        });
+    </script>
+</body>
+</html>
